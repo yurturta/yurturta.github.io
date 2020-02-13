@@ -1,0 +1,56 @@
+.centered {
+  line-height: 400px;
+  height: 400px;
+  text-align: center;
+
+}
+
+.mylinks:hover {
+	color: black;
+	background-color: cyan;
+}
+
+.mylinks{
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	border-style:hidden;
+  margin: 0 10px 0 30px;
+}
+
+.container1 {
+  position: relative;
+  width: 52%;
+  /*height: 200px;*/
+}
+
+.overlay-links {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1.5s ease;
+}
+
+.container1:hover .overlay-links {
+  width: 50%;
+  left: 80%;
+}
+
+.text1 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
