@@ -90,7 +90,7 @@ body {
 
 .container1 {
   position: relative;
-  width: 52%;
+  width: 80%;
   /*height: 200px;*/
 }
 
@@ -108,8 +108,8 @@ body {
 }
 
 .container1:hover .overlay-links {
-  width: 50%;
-  left: 80%;
+  width: 40%;
+  left: 85%;
 }
 
 .text1 {
